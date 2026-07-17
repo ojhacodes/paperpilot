@@ -8,6 +8,12 @@ PaperPilot is a lightweight, local, and grounded research assistant that lets yo
 - **Multi-Paper Tag-Based Orchestrator**: Uses a single LLM chat loop with an XML tag tool-calling interface (`<search paper_id="..." query="..." />`) to allow the LLM to search multiple papers, inspect details, and synthesize cross-document comparisons.
 - **Quantitative Evaluation Harness**: Built-in verification script testing retrieval accuracy against a fixed set of 15 Q&A reference pairs on standard papers (*Attention Is All You Need*, *BERT*, and *Retrieval-Augmented Generation*).
 
+  <img width="2521" height="1348" alt="image" src="https://github.com/user-attachments/assets/275f2979-5a5e-4521-bfe4-9463e3916960" />
+  <img width="2555" height="1348" alt="image" src="https://github.com/user-attachments/assets/59e5b813-edf3-4f13-be15-30b55574d002" />
+<img width="2521" height="1348" alt="image" src="https://github.com/user-attachments/assets/5f2606e0-1be2-4522-8dd5-dc17a6da7648" />
+
+
+
 ---
 
 ## Quantitative Evaluation Results
