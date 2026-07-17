@@ -1,0 +1,122 @@
+[
+  {
+    "id": "qa_01",
+    "paper_id": "attention_is_all_you_need",
+    "question": "What are the dimensions of the keys, values, and queries in the multi-head attention of the Transformer?",
+    "expected_page": 5,
+    "expected_section": "Multi-Head Attention",
+    "keywords": ["d_k", "d_v", "d_model", "64", "h = 8", "512"]
+  },
+  {
+    "id": "qa_02",
+    "paper_id": "attention_is_all_you_need",
+    "question": "What optimizer, learning rate schedule, and warmup steps were used to train the Transformer?",
+    "expected_page": 7,
+    "expected_section": "Optimizer",
+    "keywords": ["Adam", "warmup_steps", "4000", "0.98", "beta_1"]
+  },
+  {
+    "id": "qa_03",
+    "paper_id": "attention_is_all_you_need",
+    "question": "Explain the scaled dot-product attention formula used in the Transformer.",
+    "expected_page": 4,
+    "expected_section": "Scaled Dot-Product Attention",
+    "keywords": ["softmax", "Q", "K", "V", "sqrt(d_k)", "transpose"]
+  },
+  {
+    "id": "qa_04",
+    "paper_id": "attention_is_all_you_need",
+    "question": "What is the training cost in FLOPs for the Transformer base model compared to ByteNet or ConvS2S?",
+    "expected_page": 8,
+    "expected_section": "Machine Translation",
+    "keywords": ["2.3", "10^18", "FLOPs", "ByteNet", "ConvS2S"]
+  },
+  {
+    "id": "qa_05",
+    "paper_id": "attention_is_all_you_need",
+    "question": "What are the two types of positional encodings discussed in Attention Is All You Need?",
+    "expected_page": 6,
+    "expected_section": "Positional Encoding",
+    "keywords": ["sine", "cosine", "learned", "frequencies"]
+  },
+  {
+    "id": "qa_06",
+    "paper_id": "bert",
+    "question": "What are the two pre-training tasks used to train BERT?",
+    "expected_page": 4,
+    "expected_section": "Pre-training BERT",
+    "keywords": ["Masked LM", "Next Sentence Prediction", "MLM", "NSP"]
+  },
+  {
+    "id": "qa_07",
+    "paper_id": "bert",
+    "question": "How do the number of layers, hidden size, and attention heads compare between BERT Base and BERT Large?",
+    "expected_page": 3,
+    "expected_section": "BERT",
+    "keywords": ["L=12", "H=768", "A=12", "L=24", "H=1024", "A=16"]
+  },
+  {
+    "id": "qa_08",
+    "paper_id": "bert",
+    "question": "What are the three embeddings that are summed to construct the input representation of BERT for a given token?",
+    "expected_page": 4,
+    "expected_section": "BERT",
+    "keywords": ["Token", "Segment", "Position", "summed", "representation"]
+  },
+  {
+    "id": "qa_09",
+    "paper_id": "bert",
+    "question": "What masking rate was chosen for the Masked LM task in BERT, and what percentages of these masked tokens were replaced with actual MASK tokens, random tokens, and unchanged tokens?",
+    "expected_page": 4,
+    "expected_section": "Task #1: Masked LM",
+    "keywords": ["15%", "80%", "[MASK]", "10%", "random", "unchanged"]
+  },
+  {
+    "id": "qa_10",
+    "paper_id": "bert",
+    "question": "On which two datasets was BERT pre-trained?",
+    "expected_page": 5,
+    "expected_section": "Pre-training Data",
+    "keywords": ["BooksCorpus", "Wikipedia", "800M", "2,500M"]
+  },
+  {
+    "id": "qa_11",
+    "paper_id": "retrieval_augmented_generation",
+    "question": "What are the two models proposed in the Retrieval-Augmented Generation (RAG) paper?",
+    "expected_page": 3,
+    "expected_section": "Models",
+    "keywords": ["RAG-Sequence", "RAG-Token"]
+  },
+  {
+    "id": "qa_12",
+    "paper_id": "retrieval_augmented_generation",
+    "question": "Which pre-trained models are used for the retriever and the generator components in RAG?",
+    "expected_page": 2,
+    "expected_section": "Method",
+    "keywords": ["DPR", "BART", "generator", "retriever"]
+  },
+  {
+    "id": "qa_13",
+    "paper_id": "retrieval_augmented_generation",
+    "question": "What document corpus is queried by the retriever in the RAG evaluations?",
+    "expected_page": 4,
+    "expected_section": "Retriever: DPR",
+    "keywords": ["Wikipedia", "2018", "21-million", "100-word"]
+  },
+  {
+    "id": "qa_14",
+    "paper_id": "retrieval_augmented_generation",
+    "question": "How does RAG perform search decoding for RAG-Sequence and RAG-Token during generation?",
+    "expected_page": 4,
+    "expected_section": "Decoding",
+    "keywords": ["beam", "search", "autoregressive", "RAG-Token", "RAG-Sequence"]
+  },
+  {
+    "id": "qa_15",
+    "paper_id": "retrieval_augmented_generation",
+    "question": "What datasets were used to evaluate RAG on open-domain question answering?",
+    "expected_page": 5,
+    "expected_section": "Open-Domain Question Answering",
+    "keywords": ["Natural Questions", "TriviaQA", "WebQuestions", "CuratedTrec", "NQ", "TQA"]
+  }
+]

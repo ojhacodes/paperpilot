@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache and byte-code
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local data and registry (should not be committed to Git)
+backend/data/papers/
+backend/data/chroma_db/
+backend/data/papers_registry.json
+backend/eval/eval_results.json
+
+# Local configurations / secrets
+.env
+.env.local
+.env.*.local
+
+# Node dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/local.properties
+
+# OS-specific files
+.DS_Store
+Thumbs.db
